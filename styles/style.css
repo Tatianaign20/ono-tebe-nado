@@ -49,7 +49,7 @@
     object-fit: cover;
 }
 
-.header__contacts {
+.address {
     display: flex;
     flex-direction: column;
     gap: 1px;
@@ -63,13 +63,13 @@
     letter-spacing: 0.01em;
 }
 
-.header__contacts-link {
+.address__contacts-link {
     text-decoration: underline;
     text-underline-offset: 3.5px;
     font-style: normal;
 }
 
-.header__contacts-address {
+.address__contacts-address {
     display: block;
     font-style: normal;
 }
@@ -193,16 +193,16 @@
 .card {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     position: relative;
     width: 334px;
     min-height: 563px;
     flex-grow:1;
-    border: 2px solid #f5f5f5;
     text-align: left;
-    padding-left: 40px;
+    padding: 50px 40px;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: 165%;
+    background-size: cover;
 }
 
 .card-link {
@@ -212,41 +212,33 @@
 
 .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
-    gap: 285px;
+    
 }
 
 .card_type_book {
     background-image: url(../images/card-lot-02.jpg);
-    gap: 70px;
 }
 
 .card_type_picture {
-    position: relative;
     background-image: url(../images/card-lot-03.jpg);
-    gap: 165px;
 }
 
 .card__title {
     position: relative;
     z-index: 1;
     display: block;
-    width: 254px;
-    height: 82px;
     text-transform: uppercase;
     text-decoration: underline;
     color: #ffffff;
     font-size: 22px;
     font-weight: 700;
     line-height: 26px;
-    padding-top: 50px;
 }
 
 .card__text {
     position: relative;
     z-index: 1;
     display: block;
-    width: 254px;
-    height: 144px;
     color: #ffffff;
     font-size: 20px;
     font-weight: 400;
@@ -303,7 +295,7 @@
 .about__content {
     display: grid;
     grid-template-rows: auto auto auto;
-    margin-top: 138px;
+    margin-top: 135px;
 }
 
 .about__title {
@@ -336,7 +328,7 @@
     padding-top: 5px;
 }
 
-.footer__contacts {
+.footer__address {
     justify-self: start;
 }
 
