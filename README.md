@@ -1,1 +1,8 @@
-https://github.com/Tatianaign20/ono-tebe-nado
+# Закрывающий тег
+Учебный проект.
+
+## Стек
+HTML, CSS.
+
+## Ссылка
+https://tatianaign20.github.io/ono-tebe-nado/
